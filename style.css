@@ -654,6 +654,10 @@ a {
     color: #575757!important;
 }
 
+blockquote p {
+    font-size: 14px;
+}
+
 .container {
     max-width: 1000px;
 }
@@ -822,7 +826,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
