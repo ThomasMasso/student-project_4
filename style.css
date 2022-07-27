@@ -321,6 +321,9 @@ a:hover {
 }
 
 .navbar .nav {
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
     padding-top: 2px;
     /* margin-right: -16px; */
     float: right;
@@ -331,6 +334,7 @@ a:hover {
     /* float: left;
     margin-top: 4px; */
     font-size: 16px;
+    list-style: none;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
